@@ -3,7 +3,7 @@ import('./node_modules/game-of-life/game_of_life.js')
         let pre = document.getElementById('game-canvas');
         let universe = gol.Universe.new();
 
-        const sleepTime = 1000 / 30;
+        const sleepTime = 1000 / 10;
 
         const renderLoop = () => {
             let start = Date.now();
