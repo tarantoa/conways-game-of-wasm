@@ -1,0 +1,12 @@
+[package]
+name = "game-of-life"
+version = "0.1.0"
+edition = "2021"
+authors = ["moonmaster"]
+description = "Conway's Game of Life with wasm-pack"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
